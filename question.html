@@ -19,14 +19,26 @@
 }//
 //even(20);
 	    //WAP to print odd nos. from 1 to 20
-let odd=(number)=>{
-    for(var i=1; i<=number; i++){
-        if(i%2!==0){
-            document.write(i+" ");
-        }
+//let odd=(number)=>{
+    //for(var i=1; i<=number; i++){
+        //if(i%2!==0){
+      //      document.write(i+" ");
+    //    }
+  //  }
+//}
+//odd(20)/;
+
+
+//WAP To display the sum of series
+let input =parseInt(prompt("Enter the value of n:"));
+let sum=0;
+let sumseries=(n)=>{
+    for(var i=1;i<=n;i++){
+        sum+=i;
+        console.log("Required sum of series is:" , sum);
     }
 }
-odd(20);
+sumseries(input);
     </script>
 </body>
 
